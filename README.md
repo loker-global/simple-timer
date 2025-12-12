@@ -354,11 +354,10 @@ simple-timer/
 ```javascript
 const timerState = {
   mode: 'countdown',           // 'countdown' | 'stopwatch'
+  status: 'idle',              // 'idle' | 'running' | 'paused' | 'completed'
   duration: 0,                 // Total duration in seconds
   remaining: 0,                // Remaining time in seconds
   elapsed: 0,                  // Elapsed time for stopwatch
-  isRunning: false,            // Running state
-  isPaused: false,             // Paused state
   startTime: null,             // Timestamp when started
   pausedTime: 0,               // Accumulated paused time
 }
