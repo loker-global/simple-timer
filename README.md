@@ -21,7 +21,7 @@ Create a stunning, minimalist timer application that combines elegant design wit
 7. [Performance Requirements](#-performance-requirements)
 8. [Success Metrics](#-success-metrics)
 9. [Future Enhancements](#-future-enhancements)
-10. [License](#-license)
+10. [License](#license)
 
 ---
 
@@ -528,7 +528,7 @@ const timerState = {
   - Text: Minimum 4.5:1 ratio (7:1 for AAA)
   - Icons/UI: Minimum 3:1 ratio
   - Test with automated tools (Lighthouse, axe DevTools)
-- **Focus Not Reliant on Color**: Use icons, labels, patterns
+- **Focus Not Reliant on Color Alone**: Use icons, labels, patterns in addition to color
 - **Text Resizing**: Support up to 200% zoom without breaking layout
 - **Reduced Motion**: Respect `prefers-reduced-motion` media query
   - Disable animations, use instant transitions
